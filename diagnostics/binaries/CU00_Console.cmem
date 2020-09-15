@@ -1,0 +1,71 @@
+//==============================================================================
+//
+// CU00 - Console Diagnostic
+//
+// Program Switch settings:
+//
+//   PS1: not used
+//   PS2: not used
+//   PS3: not used
+//   PS4: not used
+//
+// Check switches settings:
+//
+//   DISK I/O - STOP
+//   PARITY   - STOP
+//   I/O      - STOP
+//   O'FLOW   - STOP
+//
+// Start addresses:
+//
+//   00000 - Full test
+//
+// Directions:
+//
+//   1. Load CC diagnostic
+//   2. Press RESET
+//   3. Press START
+//   4. After printing the diagnostic program, the machine will halt with the
+//      MANUAL light on
+//   5. Verify the register contents:
+//      OPERATION REGISTER - 48
+//      MULTIPLIER - 0
+//      SENSE AND BRANCH - 0
+//      MEMORY BUFFER REGISTER - 22
+//      MEMORY DATA REGISTER - 2
+//      DIGIT REGISTER - 22
+//      MEMORY ADDRESS REGISTER - 11111
+//   6. Press SAVE
+//   7. Verify the MEMORY ADDRESS REGISTER is 11112
+//   8. Turn the MEMORY ADDRESS REGISER DISPLAY SELECTOR, press DISPLAY MAR, and
+//      verity the MAR register contents:
+//      IR-1 - 11112
+//      IR-2 - 00000
+//      OR-1 - 02222
+//      OR-2 - 04444
+//      OR-3 - 04444
+//      PR-1 - 11112
+//      PR-2 - 00000
+//      PR-3 - 00000
+//   9. Press INSERT
+//  10. Type 4911112
+//  11. Press RELEASE-START
+//  12. Verify AUTOMATIC light is on and the MANUAL light is off
+//  13. Type ABCDEFGHIJKLMNOPQRSTUVWXYZ <record mark>
+//  14. Press RELEASE
+//  15. Press START
+//  16. After printing the alphabet, the machine will wait for alphameric input
+//  17. Verify the AUTOMATIC light is on and the SAVE light is off
+//  18. Verify the MEMORY ADDRESS REGISTER is 11123
+//  19. Press RELEASE
+//  20. Verify the AUTOMATIC light is off and the MANUAL light is on
+//   
+//==============================================================================
+
+00000: 03 08 00 00 00 00 00 00 00 01  00 00 03 01 01 01 01 00 00 00
+00020: 00 00 03 06 04 09 01 01 01 00  00 00 00 00 00 00 04 08 00 04
+00040: 04 04 04 00 02 02 02 02 03 07  00 05 05 05 05 00 00 01 00 00
+00060: 03 09 00 05 05 05 05 00 00 01  00 00 04 02 00 00 00 08 04 00
+00080: 00 00 00 00 0A 00 00 00 00 00  00 00 00 00 00 00 00 00 00 00
+
+//==============================================================================
