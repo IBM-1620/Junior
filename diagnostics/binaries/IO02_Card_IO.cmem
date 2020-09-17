@@ -32,26 +32,27 @@
 //
 //   1. Load IO02 diagnostic
 //   2. Press START
-//   3. Press RELEASE
-//   4. Press RESET
-//   5. Press INSERT
-//   6. Type 4907152
-//   7. Press RELEASE-START
-//   8. Verify that PUNCH NO FEED light is lit
-//   9. Insert empty card deck into punch
-//  10. Press START
-//  11. Verify that READER NO FEED light is lit
-//  12. Move card deck from punch to reader
-//  13. Press RELEASE
-//  14. Press RESET
-//  15. Press INSERT
-//  16. Type 4907188
-//  17. Press RELEASE-START
-//  18. Verify that PUNCH NO FEED light is lit
-//  19. Insert empty card deck into punch
-//  20. Press START
-//  21. Verify that READER NO FEED light is lit
-//  22. Move card deck from punch to reader
+//   3. Press START
+//   4. Press RELEASE
+//   5. Press RESET
+//   6. Press INSERT
+//   7. Type 4907152
+//   8. Press RELEASE-START
+//   9. Verify that PUNCH NO FEED light is lit
+//  10. Insert empty card deck into punch
+//  11. Press START
+//  12. Verify that READER NO FEED light is lit
+//  13. Move card deck from punch to reader
+//  14. Press RELEASE
+//  15. Press RESET
+//  16. Press INSERT
+//  17. Type 4907188
+//  18. Press RELEASE-START
+//  19. Verify that PUNCH NO FEED light is lit
+//  20. Insert empty card deck into punch
+//  21. Press START
+//  22. Verify that READER NO FEED light is lit
+//  23. Move card deck from punch to reader
 //
 //==============================================================================
 

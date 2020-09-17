@@ -139,6 +139,7 @@
 //   115. Press RESET
 //   116. Press START
 //   117. Verify CHECK STOP & MAR CHK are on and MAR = 1/C/C/C/C
+//   118. Press START
 //
 //==============================================================================
 
